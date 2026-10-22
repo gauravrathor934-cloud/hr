@@ -1,0 +1,49 @@
+ public static void main(String[] args) {
+        JFrame frame = new JFrame("Bike Racing Game");
+        BikeRacing game = new BikeRacing();
+
+        frame.add(game);
+        frame.pack();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        frame.setVisible(true);
+
+        game.requestFocusInWindow();
+    }
+}
+How to run the game
+Install the JDK (Java Development Kit).
+
+Save the code in a file named BikeRacing.java.
+
+Open a terminal in that folder.
+
+Compile and run:
+
+
+bash
+javac BikeRacing.java
+java BikeRacing
+Controls
+Left arrow (←): Move the bike left.
+
+Right arrow (→): Move the bike right.
+
+Enter: Restart after a crash.
+
+The game uses Java Swing, so you don't need any external game libraries.
+
+
+Log in for personalized, step-by-step guidance.
+
+
+Log in
+
+Sign up for free
+ChatGPT is AI and can make mistakes.
+
+
+
+No file chosenNo file chosenNo file chosen
+Chat with ChatGPT
